@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarto Semestre - Criminología</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="media/crimen.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="media/LogoEscuela.png" alt="Logo Criminología" class="logo-img">
+                <h1>Cuarto Semestre</h1>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <!-- Botón para regresar al index -->
+                    <li><a href="index.html" class="enlace-pagina" style="border: 1px solid white;">⬅ Inicio</a></li>
+                    
+                    <li><a href="#portada" class="nav-link active">Portada</a></li>
+                    <li><a href="#equipo" class="nav-link">Equipo</a></li>
+                    <li><a href="#revistaextra" class="nav-link">Revista Extra</a></li>
+                    
+                    <!-- Botón para ir al otro semestre -->
+                    <li><a href="quinto.html" class="enlace-pagina" style="background: rgba(255,255,255,0.2);">Quinto Semestre ➡</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- PORTADA -->
+        <section id="portada" class="section active">
+            <div class="container">
+                <div class="portada-grid">
+
+                    <div class="portada-titulo" data-aos="fade-down">
+                        <br><br>
+                        <h2 class="animate__animated animate__fadeInDown">Unos tacos saben mejor :D</h2>
+                        <p>Revista Digital - Licenciatura en Criminología</p>
+                    </div>
+
+                    <div class="portada-imagenes">
+
+                        <div class="portada-item" data-aos="fade-right">
+                            <img src="media/fotoestudiantes.jpeg" alt="Estudiantes de cuarto semestre">
+                            <br><br><br><p>Cuarto Semestre</p>
+                        </div>
+
+                        <div class="portada-item" data-aos="fade-left">
+                            <img src="media/todos.jpeg" alt="Estudiantes de quinto semestre">
+                            <br><br><br><p>Quinto Semestre</p>
+                        </div>
+
+                    </div>
+
+                    <div class="portada-participantes" data-aos="fade-up">
+                        <h3>Proyecto Académico</h3>
+                        <p class="participantes-texto">
+                            Este proyecto fue desarrollado por estudiantes de la Licenciatura en Criminología
+                            como parte de las actividades del Seminario de Integración a la Praxis Profesional,
+                            abordando la importancia de la identificación humana en distintos contextos sociales.
+                        </p>
+                    </div>
+
+                    <br><br><br><br>
+                </div>
+            </div>
+        </section>
+        
+        <!-- EQUIPO -->
+        <section id="equipo" class="section">
+            <div class="container">
+                <br><br>
+                <h2 data-aos="zoom-in">Equipo de Trabajo</h2>
+                <p class="section-subtitle" data-aos="fade-up">
+                    Integrantes del proyecto académico y docente responsable
+                </p>
+
+                <div class="equipo-grid">
+
+                    <div class="docente-card" data-aos="fade-right">
+                        <h3>Docente Responsable</h3>
+                        <p class="docente-nombre">Gabriela Manzano Mendiola</p>
+                    </div>
+
+                    <div class="alumnos-card" data-aos="fade-left">
+                        <h3>Integrantes</h3>
+                        <ul class="alumnos-lista">
+                            <li>Maximiliano Aguilar Nogueron</li>
+                            <li>Alejandra Montes Francisco</li>
+                            <li>Marlen Arenas Tepal</li>
+                            <li>Cesar Adair Martinez Campos</li>
+                            <li>Jarol Yahir Muñoz Hernández</li>
+                            <li>Alondra Espinoza Sánchez</li>
+                            <li>Karla Rojas Saucedo</li>
+                            <li>Amelie Michel Tlalpan Roque</li>
+                            <li>Santiago Robles Rodríguez</li>
+                            <li>Angel Gabriel Romero Cuellar</li>
+                            <li>Evelyn Pérez Carrillo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Revista Extra -->
+        <section id="revistaextra" class="section">
+            <div class="container">
+                <br><br>
+                <h2 data-aos="zoom-in">Revista de un fichero de identificación Humana</h2>
+                <p class="section-subtitle" data-aos="fade-up">
+                    Contenido adicional sobre actividades académicas, evidencias y proyectos realizados
+                </p>
+
+                <div class="libro-container" data-aos="fade-up">
+                    <iframe 
+                        allowfullscreen="allowfullscreen"
+                        scrolling="no"
+                        class="flip-book"
+                        src="https://heyzine.com/flip-book/7a7352e808.html">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p>© 2025 Licenciatura en Criminología</p>
+                <p>Revista Digital - Todos los derechos reservados - A501</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="qrModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalQrImg" src="" alt="Código QR ampliado">
+            <p>Escanea el código QR con tu dispositivo móvil</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
